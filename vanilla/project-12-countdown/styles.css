@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Spectral:wght@700&display=swap');
+/* GLOBAL */
+
+:root{
+    /* Colors */
+    --bglight-color: rgb(237, 245, 255);
+    --bgdark-color: rgb(24, 39, 49);
+    --anim-color: rgb(183, 166, 211);
+    /* Fonts */
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Spectral', serif;
+}
+
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: .9rem;
+    font-family: var(--ff-primary);
+    background-color: var(--bglight-color);
+}
+
+h1{
+    font-family: var(--ff-secondary);
+    font-size: 3rem;
+    color: var(--anim-color);
+    text-shadow: 1px 1px 1px var(--bgdark-color);
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+/* UNIQUE */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5%;
+}
+
+.container article{
+    max-width: 500px;
+}
+
+.container article img{
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+    animation: 3s ease-in-out infinite name;    /*durée-function-iterationcnt-name*/
+}
+
+@keyframes name {
+    0%{
+        box-shadow: 0 0 0 3px var(--anim-color);
+    }
+
+    50%{
+        box-shadow: none;
+    }
+
+    100%{
+        box-shadow: 0 0 0 3px var(--anim-color);
+    }
+}
