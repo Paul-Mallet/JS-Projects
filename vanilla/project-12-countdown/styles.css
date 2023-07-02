@@ -6,6 +6,7 @@
     --bglight-color: rgb(237, 245, 255);
     --bgdark-color: rgb(24, 39, 49);
     --anim-color: rgb(183, 166, 211);
+    --hoverbtn-color: rgb(137, 118, 167);
     /* Fonts */
     --ff-primary: 'Poppins', sans-serif;
     --ff-secondary: 'Spectral', serif;
@@ -33,6 +34,22 @@ h1{
 h2{
     margin-bottom: 50px;
     font-size: 1rem;
+}
+
+button{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--bglight-color);
+    background: var(--anim-color);
+    padding: 10px 40px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: var(--hoverbtn-color);
+    letter-spacing: .05rem;
 }
 
 /* UNIQUE */
@@ -75,4 +92,20 @@ section{
     100%{
         box-shadow: 0 0 0 3px var(--anim-color);
     }
+}
+
+.container article span{
+    color: var(--anim-color);
+}
+
+/* React Component */
+
+.componentReact{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
