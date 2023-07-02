@@ -1,8 +1,6 @@
 
 export function addDate (elem) {
     const endPromotion = new Date() // ex: Monday, 10 July 2023 00:00am
-    console.log(endPromotion)
-    
     elem.innerHTML = endPromotion
 } 
 
