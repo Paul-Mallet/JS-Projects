@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     font-size: 1rem;
 }
 
@@ -49,7 +49,10 @@ button{
 
 button:hover{
     background: var(--hoverbtn-color);
-    letter-spacing: .05rem;
+}
+
+p{
+    margin-bottom: 25px;
 }
 
 /* UNIQUE */
@@ -94,8 +97,30 @@ section{
     }
 }
 
-.container article span{
+.container article:first-child span{
     color: var(--anim-color);
+}
+
+.container article .container{
+    display: flex;
+    align-items: center;
+}
+
+.container article .container .single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: var(--bglight-color);
+    font-size: 1.5rem;
+    background: var(--anim-color);
+}
+
+.container article .container .single span{
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 /* React Component */

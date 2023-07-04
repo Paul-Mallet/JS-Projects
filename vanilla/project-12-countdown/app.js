@@ -1,5 +1,4 @@
-// import {timer} from './dom.js'
-
+import {promotionDate} from './dom.js'
 
 const section = document.querySelector(".innerJS")
 
@@ -13,52 +12,59 @@ window.addEventListener("load", () => {
                     <h1>OLD IPHONE GIVEAWAY</h1>
                     <h2>Promotion ends on <span></span></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod harum itaque ad in sit iste cupiditate aperiam molestias aspernatur quaerat dolorum necessitatibus, tempora unde corporis! Voluptates molestias excepturi quisquam?</p>
+                
                 </article>
             </div>
     `
+
     const spanInfos = document.querySelector("span")
     const articleInfos = document.querySelector(".infos")
-    console.log(articleInfos)
 
-    // timer(spanInfos)
+    promotionDate(spanInfos, articleInfos)
 })
 
-const divComponent = document.querySelector(".componentReact")
 
-class DecrementerDate extends React.Component {
 
-    constructor (props) {
-        super(props)
-        this.state = {n: this.props.starter}
-        this.timer = null
-    }
 
-    componentDidMount() {
-        window.setInterval(this.decrement.bind(this), 1000)
-    }
+// React Component Method
 
-    componentWillUnmount() {
-        window.clearInterval(this.timer)
-    }
 
-    decrement() {
-        this.setState((state, props) => {
-            return {n: state.n - 1}
-        })
-    }
+// const divComponent = document.querySelector(".componentReact")
 
-    render() {
-        return <div>
-            <h3>{this.state.n}</h3>
-            <button>Buy it now</button>
-        </div>
-    }
-}
+// class DecrementerDate extends React.Component {
 
-function All() {
-    return <div>
-        <DecrementerDate starter={0}/>
-    </div>
-}
+//     constructor (props) {
+//         super(props)
+//         this.state = {n: this.props.starter}
+//         this.timer = null
+//     }
 
-ReactDOM.render(<All/>, document.querySelector(".componentReact"))
+//     componentDidMount() {
+//         window.setInterval(this.decrement.bind(this), 1000)
+//     }
+
+//     componentWillUnmount() {
+//         window.clearInterval(this.timer)
+//     }
+
+//     decrement() {
+//         this.setState((state, props) => {
+//             return {n: state.n - 1}
+//         })
+//     }
+
+//     render() {
+//         return <div>
+//             <h3>{this.state.n}</h3>
+//             <button>Buy it now</button>
+//         </div>
+//     }
+// }
+
+// function All() {
+//     return <div>
+//         <DecrementerDate starter={0}/>
+//     </div>
+// }
+
+// ReactDOM.render(<All/>, document.querySelector(".componentReact"))
