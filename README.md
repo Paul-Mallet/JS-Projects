@@ -5,11 +5,11 @@ All my JS Small Projects from scratch
 </br>
 ## Summary
 <ul>
-  <li><a href="#insert-code-test">Insert Code Test</a></li>
-  <li><a href="#some-features-to-do-here">Some Features To Do Here</a></li>
+  <li><a href="#project-01-:-random-background">Insert Code Test</a></li>
+  <li><a href="#project-02-:-counter">Some Features To Do Here</a></li>
 </ul>
 
-## Insert Code Test
+## Project 01 : Random Background
 ```sh
   npm install
 ```
@@ -20,7 +20,7 @@ All my JS Small Projects from scratch
   A different way to include code citation
 ``
 `Maybe this is simpler than previous one`
-## Some Features To Do Here
+## Project 02 : Counter
 - [x] List 1 <img scr="vanilla/project-10-dispscroll/img/"/>
 - [ ] List 2
 - [ ] List 3
