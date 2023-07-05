@@ -17,17 +17,26 @@ export const promotionDate = function (elem, elem2) {
     divMain.setAttribute("class", "container")
 
     for (let date of allDate) {
-        if (date < 10) {
-            date = "0" + date
-        }
         const divSingle = document.createElement("div")
         divSingle.setAttribute("class", "single")
-        divSingle.prepend(date)
+        divSingle.innerHTML = date
+        const span = document.createElement("span")
 
-        switch (allDate) {
-            case allDate :
-                const span = document.createElement("span")
+        switch (date) {
+            case date = allDate[0] :
                 span.innerText = "Secs"
+                divSingle.append(span)
+                break
+            case date = allDate[1] :
+                span.innerText = "Mins"
+                divSingle.append(span)
+                break
+            case date = allDate[2] :
+                span.innerText = "Hours"
+                divSingle.append(span)
+                break
+            case date = allDate[3] :
+                span.innerText = "Days"
                 divSingle.append(span)
                 break
             default :
@@ -41,9 +50,9 @@ export const promotionDate = function (elem, elem2) {
 
 
 
-export function timer(elem) {
+export function timer(elem, elem2) {
     window.setInterval(() => {
-        promotionEndDate(elem)
+        promotionDate(elem, elem2)
     }, 1000)
 }
 
