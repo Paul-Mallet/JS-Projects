@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=EB+Garamond&display=swap');
+
+/* GLOBAL */
+
+:root{
+    /* Color */
+    --primary-color: rgba(196, 148, 84, 0.212);
+    --grey-color: rgb(180, 180, 180);
+    --global-color: white;
+    --bg-color: rgba(122, 69, 69, 0.068);
+    --shadow-color: rgb(165, 108, 42);
+    /* Font */
+    --ff-global: 'EB Garamond', serif;
+    --ff-primary: 'Alfa Slab One', cursive;
+}
+
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-color);
+    font-family: var(--ff-global);
+    font-size: .9rem;
+}
+
+h1{
+    font-family: var(--ff-primary);
+    font-size: 2.5em;
+}
+
+h2{
+    font-family: var(--ff-primary);
+    font-size: 1.5rem;
+}
+
+button{
+    font-family: var(--ff-primary);
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+/* SPECIAL */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 calc(8% + 40px);
+}
+
+.container article{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    max-width: 48%;
+}
+
+.container img{
+    max-width: 48%; /*Pour que img */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.changes .title-top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.changes .title-top button{
+    background: var(--primary-color);
+    width: 33.3%;   /*Pour que les btn prennent full-width*/
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#one{
+    border-radius: 3px 0 0 0;
+}
+
+#three{
+    border-radius: 0 3px 0 0;
+}
+
+.changes .title-top button:hover{   /*Doit être le active, pas le hover*/
+    background: var(--bg-color);
+    color: var(--shadow-color);    /*Border hover sans bouger élément*/
+}
+
+.changes .content-bot{
+    padding: 15px;
+    background: var(--global-color);
+    border-radius: 0 0 3px 3px;
+}
+
+/* JS */
+
+.active{
+    background: var(--global-color)!important;
+    box-shadow: 0 0 0 3px var(--shadow-color);
+}
+
+.hide{
+    display: none;
+}
+
+ul{
+    margin-top: 1em;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}

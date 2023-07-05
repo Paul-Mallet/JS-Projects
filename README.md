@@ -1,5 +1,34 @@
+[![Contributors][contributors-shield]][contributors-url]
+
 # JS-Small-Projects
 All my JS Small Projects from scratch
+</br>
+## Summary
+<ul>
+  <li><a href="#project-01-:-random-background">Insert Code Test</a></li>
+  <li><a href="#project-02-:-counter">Some Features To Do Here</a></li>
+</ul>
+
+## Project 01 : Random Background
+```sh
+  npm install
+```
+<p>So, here I'ld like to demonstrate how we could install NodeJS Package Manager... And it's the way we'll take to do it ! :grin: </p>
+
+### Sub Insert Code Test
+``
+  A different way to include code citation
+``
+`Maybe this is simpler than previous one`
+
+## Project 02 : Counter
+- [x] List 1 <img scr="vanilla/project-10-dispscroll/img/"/>
+- [ ] List 2
+- [ ] List 3
 
 ## 03 : Job Card Swapper
 <p>The goal of this project was to create a clean swapper on button click to see all members on a database file : like .json documents</p>
+
+<!-- This is a simple comment where the variables are declared -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors

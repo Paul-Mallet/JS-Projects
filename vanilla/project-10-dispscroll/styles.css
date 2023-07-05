@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+/* GLOBAL */
+
+:root{
+    --primary-color: rgb(231, 128, 176);
+    --secondary-color: rgb(0, 108, 196);
+    --primary-basic-color: white;
+    /* Fonts */
+    --ff-primary: 'Belanosima', sans-serif;
+}
+
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+a{
+    font-size: 1.2rem;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    max-width: 600px;
+}
+
+p{
+    margin: 25px 0;
+}
+
+button{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+/* SPECIFIC */
+
+/* Header */
+nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding-left: calc(7% + 40px);
+    padding-right: calc(7% + 40px);
+    transition: .5s;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--primary-basic-color);
+}
+
+/* Main */
+
+#first{
+    background: url(img/vinayak-veer-jc7Knd4zhQY-unsplash.jpg) 0% 0% / 100% no-repeat;
+}
+
+#first div{
+    color: var(--primary-basic-color);
+    text-align: center;
+    margin-left: calc(7% + 40px);
+    margin-right: calc(7% + 40px);
+}
+
+section div button{
+    color: var(--primary-basic-color);
+    background: transparent;
+    border: 2px solid var(--primary-basic-color);
+    font-weight: 600;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+section div button:hover{
+    color: var(--secondary-color);
+    background: var(--primary-basic-color);
+}
+
+/* Navbar Appear */
+
+.nav-appear{
+    position: fixed;
+    color: var(--secondary-color);
+    background: var(--primary-basic-color);
+    transition: .5s;
+}
+
+.links-appear{
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: .2s;
+}
+
+.links-appear:hover{
+    color: var(--primary-color);
+}
