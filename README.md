@@ -20,11 +20,14 @@ All my JS Small Projects from scratch
   A different way to include code citation
 ``
 `Maybe this is simpler than previous one`
+
 ## Project 02 : Counter
 - [x] List 1 <img scr="vanilla/project-10-dispscroll/img/"/>
 - [ ] List 2
 - [ ] List 3
-##
+
+## 03 : Job Card Swapper
+<p>The goal of this project was to create a clean swapper on button click to see all members on a database file : like .json documents</p>
 
 <!-- This is a simple comment where the variables are declared -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
