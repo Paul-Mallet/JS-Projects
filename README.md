@@ -1,31 +1,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 
-# JS-Small-Projects
-All my JS Small Projects from scratch
-</br>
-## Summary
-<ul>
-  <li><a href="#insert-code-test">Insert Code Test</a></li>
-  <li><a href="#some-features-to-do-here">Some Features To Do Here</a></li>
-</ul>
+## 04 : Navbar Reveal
+<p>A good way to see a header navbar anyway the backgrounds are, is to change its background when the scrollY position is the same at top new background. That's what it done in this project.</p>
 
-## Insert Code Test
-```sh
-  npm install
-```
-<p>So, here I'ld like to demonstrate how we could install NodeJS Package Manager... And it's the way we'll take to do it ! :grin: </p>
-
-### Sub Insert Code Test
-``
-  A different way to include code citation
-``
-`Maybe this is simpler than previous one`
-## Some Features To Do Here
-- [x] List 1 <img scr="vanilla/project-10-dispscroll/img/"/>
-- [ ] List 2
-- [ ] List 3
-##
-
-<!-- This is a simple comment where the variables are declared -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+> " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
