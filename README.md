@@ -1,4 +1,3 @@
-=======
 # JS-Small-Projects
 All my JS Small Projects from scratch
 
@@ -33,8 +32,16 @@ All my JS Small Projects from scratch
 ## 04 : Navbar Reveal
 <p>A good way to see a header navbar anyway the backgrounds are, is to change its background when the scrollY position is the same at top new background. That's what it done in this project.</p>
 
+## 05 : Sidebar Reveal
+## 06 : Modal Pop-up
+## 07 : FAQ Deployment
+## 08 : Filter Menu
+## 09 : Video Background
+## 10 : Scroll Disapear
+## 11 : Div Swapping
+## 12 : Countdown Promotion
+## 13 : Lorem Generator
 
 <!-- This is a simple comment where the variables are declared -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
->>>>>>> main
