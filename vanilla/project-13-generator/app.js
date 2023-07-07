@@ -1,12 +1,5 @@
-import { createPara } from "./dom.js"
-
-const paragraphs = [
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio possimus facilis velit maiores ut in, ipsam eveniet repellat, natus tempora aliquid perspiciatis laborum quo vitae nesciunt doloremque debitis error nobis.",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque omnis eligendi incidunt ullam nemo? Laboriosam quisquam officia distinctio, aut qui est a officiis commodi, labore eos delectus esse cupiditate. Assumenda?",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet maxime, esse dolorum laudantium est eveniet aliquid minima? At consequuntur doloribus accusamus eius, nobis quibusdam dolorem est illum neque facere tempora.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptates doloremque perspiciatis at a? Necessitatibus repudiandae sequi ipsum officiis dicta nihil, fugit nam corrupti ullam impedit distinctio, quasi cupiditate aperiam.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit ab placeat, inventore dicta quia accusantium aspernatur a perspiciatis, corrupti reiciendis debitis nulla dolor magnam ad sed nam tempore sequi."
-]
+import { paragraphs } from "./data.js"
+import { createPara, removeAllPara } from "./dom.js"
 
 // Random, unique sauf si > nbre valeur dans []
 
@@ -16,16 +9,41 @@ const para = document.querySelector(".paragraphs")
 
 btn.addEventListener("click", () => {
     const nberPara = nber.value
-    if (para.value != undefined) {
-        // p.remove()
-        console.log(para.value)
+    if (para.childNodes) {
+        removeAllPara(para)
         createPara(nberPara, paragraphs, para)
     } else {
         createPara(nberPara, paragraphs, para)
-        console.log(para)
     }
 })
+
+// Important : e.preventDefault() permet de ne pas envoyer de req via le form -> donc pas de params dans url et pas de chargement de page inutile !
 
 // essayer avec .json avec node.js
 
 // essayer une API avec fetch()
+
+// const form = document.querySelector(".lorem-form");
+// const amount = document.getElementById("amount");
+// const result = document.querySelector(".lorem-text");
+
+// form.addEventListener("submit", function (e) {
+//   // A click on a form submit button – initiates its submission to the server.
+
+//   e.preventDefault();
+
+//   const value = parseInt(amount.value);
+//   const random = Math.floor(Math.random() * text.length);
+
+//   if (isNaN(value) || value < 0 || value > 9) {
+//     result.innerHTML = `<p class="result">${text[random]}</p>`;
+//   } else {
+//     let tempText = text.slice(0, value);
+//     tempText = tempText
+//       .map(function (item) {
+//         return `<p class="result">${item}</p>`;
+//       })
+//       .join("");
+//     result.innerHTML = tempText;
+//   }
+// });
