@@ -1,5 +1,5 @@
-# JS-Small-Projects
-All my JS Small Projects from scratch
+# JavaScript-Projects (Small)
+All my JS Small Projects from scratch create by my own/inspired by tuts in the web.
 
 > " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
 ## Summary
