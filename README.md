@@ -42,6 +42,7 @@ All my JS Small Projects from scratch
 ## 12 : Countdown Promotion
 ## 13 : Lorem Generator
 ## 14 : TodoList Interactions
+<p>This is probably the most difficult project I've made on my own. The famous todolist items, with an input, submit, modify and clear button which looks like an introduction to API CRUD method to create, read, update and delete items.</p>
 
 <!-- This is a simple comment where the variables are declared -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
