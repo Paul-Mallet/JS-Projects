@@ -4,12 +4,23 @@ All my JS Small Projects from scratch
 > " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
 </br>
 ## Summary
-<ul>
-  <li><a href="#project-01-:-random-background">Insert Code Test</a></li>
-  <li><a href="#project-02-:-counter">Some Features To Do Here</a></li>
-</ul>
 
-## Project 01 : Random Background
+<li><a href="#01-:-random-background">Insert Code Test</a></li>
+<li><a href="#02-:-counter">Some Features To Do Here</a></li>
+<li><a href="#03-:-job-card-swapper">Some Features To Do Here</a></li>
+<li><a href="#04-:-navbar-reveal">Some Features To Do Here</a></li>
+<li><a href="#05-:-sidebar-reveal">Some Features To Do Here</a></li>
+<li><a href="#06-:-modal-pop-up">Some Features To Do Here</a></li>
+<li><a href="#07-:-faq-deployment">Some Features To Do Here</a></li>
+<li><a href="#08-:-filter-menu">Some Features To Do Here</a></li>
+<li><a href="#09-:-video-background">Some Features To Do Here</a></li>
+<li><a href="#10-:-scroll-disappear">Some Features To Do Here</a></li>
+<li><a href="#11-:-div-swapping">Some Features To Do Here</a></li>
+<li><a href="#12-:-countdown-promotion">Some Features To Do Here</a></li>
+<li><a href="#13-:-lorem-generator">Some Features To Do Here</a></li>
+<li><a href="#14-:-todolist-interactions">Some Features To Do Here</a></li>
+
+## 01 : Random Background
 ```sh
   npm install
 ```
@@ -21,7 +32,7 @@ All my JS Small Projects from scratch
 ``
 `Maybe this is simpler than previous one`
 
-## Project 02 : Counter
+## 02 : Counter
 - [x] List 1 <img scr="vanilla/project-10-dispscroll/img/"/>
 - [ ] List 2
 - [ ] List 3
