@@ -1,8 +1,19 @@
 /**
- * Submit : entre un mot, clic sur submit-btn et 1 elem li est créé dans grocery-list
+ * Value entrée dans input, créer ul et 1 li(après click sur submit-btn)
+ * 
  */
 
-const groceryList = document.querySelector(".grocery-list")
-const groceryInput = document.querySelector("#grocery")
-const submitBtn = document.querySelector(".sudmit-btn")
 
+const groceryInput = document.querySelector("#grocery")
+const submitBtn = document.querySelector(".submit-btn")
+const groceryList = document.querySelector(".grocery-list")
+const clearBtn = document.querySelector(".clear-btn")
+
+
+submitBtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    console.log(groceryInput.value)
+})
+
+// class TodoList {}
+// class TodoLi {}
