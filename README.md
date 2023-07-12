@@ -3,7 +3,7 @@ All my JS Small Projects from scratch
 
 > " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
 ## Summary
-<li><a href="#01-:-random-background">Random Background</a></li>
+<li><a href="#01-random-background">Random Background</a></li>
 <li><a href="#02-:-counter">Counter</a></li>
 <li><a href="#03-:-job-card-swapper">Job Card Swapper</a></li>
 <li><a href="#04-:-navbar-reveal">Navbar Reveal</a></li>
@@ -18,7 +18,7 @@ All my JS Small Projects from scratch
 <li><a href="#13-:-lorem-generator">Lorem Generator</a></li>
 <li><a href="#14-:-todolist-interactions">Todolist Interactions</a></li>
 
-## 01 : Random Background
+## 01-Random Background
 ```sh
   npm install
 ```
