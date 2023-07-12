@@ -2,9 +2,7 @@
 All my JS Small Projects from scratch
 
 > " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
-</br>
 ## Summary
-
 <li><a href="#01-:-random-background">Insert Code Test</a></li>
 <li><a href="#02-:-counter">Some Features To Do Here</a></li>
 <li><a href="#03-:-job-card-swapper">Some Features To Do Here</a></li>
