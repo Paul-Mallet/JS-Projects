@@ -3,20 +3,20 @@ All my JS Small Projects from scratch
 
 > " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
 ## Summary
-<li><a href="#01-:-random-background">Insert Code Test</a></li>
-<li><a href="#02-:-counter">Some Features To Do Here</a></li>
-<li><a href="#03-:-job-card-swapper">Some Features To Do Here</a></li>
-<li><a href="#04-:-navbar-reveal">Some Features To Do Here</a></li>
-<li><a href="#05-:-sidebar-reveal">Some Features To Do Here</a></li>
-<li><a href="#06-:-modal-pop-up">Some Features To Do Here</a></li>
-<li><a href="#07-:-faq-deployment">Some Features To Do Here</a></li>
-<li><a href="#08-:-filter-menu">Some Features To Do Here</a></li>
-<li><a href="#09-:-video-background">Some Features To Do Here</a></li>
-<li><a href="#10-:-scroll-disappear">Some Features To Do Here</a></li>
-<li><a href="#11-:-div-swapping">Some Features To Do Here</a></li>
-<li><a href="#12-:-countdown-promotion">Some Features To Do Here</a></li>
-<li><a href="#13-:-lorem-generator">Some Features To Do Here</a></li>
-<li><a href="#14-:-todolist-interactions">Some Features To Do Here</a></li>
+<li><a href="#01-:-random-background">Random Background</a></li>
+<li><a href="#02-:-counter">Counter</a></li>
+<li><a href="#03-:-job-card-swapper">Job Card Swapper</a></li>
+<li><a href="#04-:-navbar-reveal">Navbar Reveal</a></li>
+<li><a href="#05-:-sidebar-reveal">Sidebar Reveal</a></li>
+<li><a href="#06-:-modal-pop-up">Modal Pop-up</a></li>
+<li><a href="#07-:-faq-reveal">FAQ Reveal</a></li>
+<li><a href="#08-:-filter-menu">Filter Menu</a></li>
+<li><a href="#09-:-video-background">Video Background</a></li>
+<li><a href="#10-:-scroll-disappear">Scroll Disappear</a></li>
+<li><a href="#11-:-div-swapping">Div Swapping</a></li>
+<li><a href="#12-:-countdown-promotion">Countdown Promotion</a></li>
+<li><a href="#13-:-lorem-generator">Lorem Generator</a></li>
+<li><a href="#14-:-todolist-interactions">Todolist Interactions</a></li>
 
 ## 01 : Random Background
 ```sh
@@ -43,7 +43,7 @@ All my JS Small Projects from scratch
 
 ## 05 : Sidebar Reveal
 ## 06 : Modal Pop-up
-## 07 : FAQ Deployment
+## 07 : FAQ Reveal
 ## 08 : Filter Menu
 ## 09 : Video Background
 ## 10 : Scroll Disapear
