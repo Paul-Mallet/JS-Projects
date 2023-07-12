@@ -1,22 +1,22 @@
 # JavaScript-Projects (Small)
 All my JS Small Projects from scratch create by my own/inspired by tuts in the web.
 
-> " I am a man of fortune, and I must seek my fortune." Henry Avery-1864
+> "Coding is an art" Me-2023
 ## Summary
-<li><a href="#01-random-background">Random Background</a></li>
-<li><a href="#02-counter">Counter</a></li>
-<li><a href="#03-job-card-swapper">Job Card Swapper</a></li>
-<li><a href="#04-navbar-reveal">Navbar Reveal</a></li>
-<li><a href="#05-sidebar-reveal">Sidebar Reveal</a></li>
-<li><a href="#06-modal-pop-up">Modal Pop-up</a></li>
-<li><a href="#07-faq-reveal">FAQ Reveal</a></li>
-<li><a href="#08-filter-menu">Filter Menu</a></li>
-<li><a href="#09-video-background">Video Background</a></li>
-<li><a href="#10-scroll-disappear">Scroll Disappear</a></li>
-<li><a href="#11-div-swapping">Div Swapping</a></li>
-<li><a href="#12-countdown-promotion">Countdown Promotion</a></li>
-<li><a href="#13-lorem-generator">Lorem Generator</a></li>
-<li><a href="#14-todolist-interactions">Todolist Interactions</a></li>
+<li><a href="#01-random-background">01-Random Background</a></li>
+<li><a href="#02-counter">02-Counter</a></li>
+<li><a href="#03-job-card-swapper">03-Job Card Swapper</a></li>
+<li><a href="#04-navbar-reveal">04-Navbar Reveal</a></li>
+<li><a href="#05-sidebar-reveal">05-Sidebar Reveal</a></li>
+<li><a href="#06-modal-pop-up">06-Modal Pop-up</a></li>
+<li><a href="#07-faq-reveal">07-FAQ Reveal</a></li>
+<li><a href="#08-filter-menu">08-Filter Menu</a></li>
+<li><a href="#09-video-background">09-Video Background</a></li>
+<li><a href="#10-scroll-disappear">10-Scroll Disappear</a></li>
+<li><a href="#11-div-swapping">11-Div Swapping</a></li>
+<li><a href="#12-countdown-promotion">12-Countdown Promotion</a></li>
+<li><a href="#13-lorem-generator">13-Lorem Generator</a></li>
+<li><a href="#14-todolist-interactions">14-Todolist Interactions</a></li>
 
 ## 01-Random Background
 ```sh
