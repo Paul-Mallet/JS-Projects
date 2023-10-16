@@ -1,7 +1,7 @@
 # JavaScript-Projects (Small)
 All my JS Small Projects from scratch create by my own/inspired by tuts in the web.
 
-> "Coding is an art" Me-2023
+> "Coding is an art to create things the most simply and efficiency"
 ## Summary
 <li><a href="#01-random-background">01-Random Background</a></li>
 <li><a href="#02-counter">02-Counter</a></li>
